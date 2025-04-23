@@ -4,6 +4,9 @@ A web-based content generation system that leverages OpenAI’s GPT models to au
 
 ---
 
+![Screenshot (6)](https://github.com/user-attachments/assets/307f08da-2480-44c7-811a-8f16d505fc4d)
+
+
 ## 📝 Summary
 This project allows users to input:
 - A topic
@@ -119,10 +122,18 @@ Translate content into:
 -Hindi
 -Chinese
 
+## Screenshot
+![Screenshot (6)](https://github.com/user-attachments/assets/53d708cd-e9d6-4372-a168-f1330910b221)
+![Screenshot (7)](https://github.com/user-attachments/assets/593c979e-5034-4575-8cb2-71769af3c9ff)
+![Screenshot (8)](https://github.com/user-attachments/assets/dd59849a-2022-4f08-a6a5-75afcdcf9e85)
+![Screenshot (9)](https://github.com/user-attachments/assets/568f14ac-e3d0-4b6d-8f27-8260e24ac9e3)
+![Screenshot (10)](https://github.com/user-attachments/assets/d9e79623-16b5-4aab-a6ef-de4dc06c51aa)
+
 ## 📄 Download Options
 You can export your content in:
 -Plain text (.txt)
 -Portable Document Format (.pdf) – with Unicode font support
+
 
 ## 📬 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss.
