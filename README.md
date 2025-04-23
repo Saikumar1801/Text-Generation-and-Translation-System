@@ -55,7 +55,7 @@ text-generator-app/
 ## 🔑 Setup
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/text-generator-app.git
+    git clone https://github.com/Saikumar1801/Text-Generation-and-Translation-System.git
     cd text-generator-app
     ```
 
