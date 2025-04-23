@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Generation and Translation System for Content Creation</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        .output textarea, .translated-output textarea {
+            height: auto;
+            min-height: 600px;
+            max-height: none;
+            width: 100%;
+            padding: 15px;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: #fafafa;
+        }
+        .output-section {
+            margin-top: 30px;
+        }
+        .translated-output {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Text Generation and Translation System for Content Creation</h1>
+    <form action="/generate" method="POST" class="input-form">
+        <label>Topic:</label>
+        <input type="text" name="topic" required>
+
+        <label>Keywords:</label>
+        <input type="text" name="keywords" required>
+
+        <label>Tone:</label>
+        <select name="tone">
+            <option value="formal">Formal</option>
+            <option value="casual">Casual</option>
+            <option value="excited">Excited</option>
+        </select>
+
+        <label>Style:</label>
+        <select name="style">
+            <option value="blog post">Blog Post</option>
+            <option value="social media caption">Social Media Caption</option>
+            <option value="marketing copy">Marketing Copy</option>
+        </select>
+
+        <button type="submit">Generate Content</button>
+    </form>
+
+    {% if content %}
+    <div class="output-section">
+        <h2>Generated Content</h2>
+        <form action="/translate" method="POST">
+            <textarea name="content" readonly>{{ original_content }}</textarea>
+            <input type="hidden" name="original_content" value="{{ original_content }}">
+            <label>Translate to:</label>
+            <select name="language">
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="hi">Hindi</option>
+                <option value="zh-cn">Chinese</option>
+            </select>
+            <button type="submit">Translate</button>
+        </form>
+    </div>
+    {% endif %}
+
+    {% if content and content != original_content %}
+    <div class="translated-output">
+        <h2>Translated Content</h2>
+        <textarea readonly>{{ content }}</textarea>
+
+        <form action="/download_txt" method="POST">
+            <input type="hidden" name="original_content" value="{{ original_content }}">
+            <input type="hidden" name="translated_content" value="{{ content }}">
+            <button type="submit">Download TXT</button>
+        </form>
+
+        <form action="/download_pdf" method="POST">
+            <input type="hidden" name="original_content" value="{{ original_content }}">
+            <input type="hidden" name="translated_content" value="{{ content }}">
+            <button type="submit">Download PDF</button>
+        </form>
+    </div>
+    {% endif %}
+</div>
+</body>
+</html>
