@@ -38,7 +38,7 @@ This project showcases:
 ---
 
 ## 📁 Project Structure
-text-generator-app/
+Text-Generation-and-Translation-System/
 ├── app.py
 ├── requirements.txt
 ├── Dockerfile
@@ -56,7 +56,7 @@ text-generator-app/
 1. Clone this repository:
     ```bash
     git clone https://github.com/Saikumar1801/Text-Generation-and-Translation-System.git
-    cd text-generator-app
+    cd Text-Generation-and-Translation-System
     ```
 
 2. Add your OpenAI API key to `app.py`:
@@ -103,12 +103,12 @@ python app.py
 ## 🐳 Run with Docker
 1. Build the image:
 ```bash
-docker build -t text-generator-app
+docker build -t Text-Generation-and-Translation-System
 ```
 2. Run the container:
 
 ```bash
-docker run -p 5000:5000 text-generator-app
+docker run -p 5000:5000 Text-Generation-and-Translation-System
 ```
 
 ## 🌍 Languages Supported
