@@ -4,7 +4,7 @@ A web-based content generation system that leverages OpenAI’s GPT models to au
 
 ---
 
-![Screenshot (6)](https://github.com/user-attachments/assets/307f08da-2480-44c7-811a-8f16d505fc4d)
+![front](https://github.com/user-attachments/assets/b8825321-3aef-4e01-8f3d-c530db171cc5)
 
 
 ## 📝 Summary
@@ -123,11 +123,12 @@ Translate content into:
 -Chinese
 
 ## Screenshot
-![Screenshot (6)](https://github.com/user-attachments/assets/53d708cd-e9d6-4372-a168-f1330910b221)
-![Screenshot (7)](https://github.com/user-attachments/assets/593c979e-5034-4575-8cb2-71769af3c9ff)
-![Screenshot (8)](https://github.com/user-attachments/assets/dd59849a-2022-4f08-a6a5-75afcdcf9e85)
-![Screenshot (9)](https://github.com/user-attachments/assets/568f14ac-e3d0-4b6d-8f27-8260e24ac9e3)
-![Screenshot (10)](https://github.com/user-attachments/assets/d9e79623-16b5-4aab-a6ef-de4dc06c51aa)
+![1](https://github.com/user-attachments/assets/e2a6e279-23d8-4ef2-b1d8-9cb3e684a633)
+![2](https://github.com/user-attachments/assets/684c7a74-ec88-42a6-b498-e7b8446704a3)
+![3](https://github.com/user-attachments/assets/50446ecf-6553-4eb4-88ab-4ab6c6821be5)
+![4](https://github.com/user-attachments/assets/bd52b886-f44a-4ae6-8c99-49be25edf24f)
+![5](https://github.com/user-attachments/assets/20b9ea9e-136e-4f0a-923f-6a3f63d95052)
+
 
 ## 📄 Download Options
 You can export your content in:
